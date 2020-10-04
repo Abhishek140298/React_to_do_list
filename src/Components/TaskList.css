@@ -1,0 +1,23 @@
+.task_list {
+  padding-right: 40px;
+}
+
+ul {
+  display: flex;
+
+  list-style: none;
+}
+.delete {
+  border-radius: 100%;
+  background-color: #ff0000;
+}
+.input {
+  padding-left: 10px;
+}
+
+@media only screen and (min-width: 390px) {
+  .input {
+    display: flex;
+    flex-direction: column;
+  }
+}
